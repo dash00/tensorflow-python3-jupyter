@@ -65,7 +65,7 @@ Once Docker has been installed and the package has been downloaded, one can simp
 	$ docker run -it -p 8888:8888 dash00/tensorflow-python3-jupyter
 	```
 	
-	The options `-it` and `-p` allow respectively to run an interactive container (attached to the terminal) and to expose the port 8888 of the container (this port is used by the jupyter web service).  
+	The options `-it` and `-p` allow respectively to run an interactive container (attached to the terminal) and to expose the port 8888 of the container (this port is used by the jupyter web service). 
 	
 	By default, a token authentification is enabled. Therefore, the first time you use the container you will need to copy the token from the terminal to log in the Jupyter Notebook (see next subsection to disable authentification). 
 	
@@ -95,7 +95,7 @@ Once Docker has been installed and the package has been downloaded, one can simp
 	$ docker run -it -p 8888:8888 -v /$(pwd)/notebooks:/notebooks dash00/tensorflow-python3-jupyter
 	```
 	
-	You can change `/$(pwd)/notebooks` by any path on the local system. If the folder does not exist, it will be created. This option maps the given local folder with the folder of the notebooks on Jupyter. This folder should contain all your notebooks indeed.   
+	You can change `/$(pwd)/notebooks` by any path on the local system. If the folder does not exist, it will be created. This option maps the given local folder with the folder of the notebooks on Jupyter. This folder should contain all your notebooks indeed. 
 
 5. **Now, let's use Jupyter Notebook and Tensorboard in the same time** 
 
@@ -119,3 +119,21 @@ Once Docker has been installed and the package has been downloaded, one can simp
 	
 	![](./imgs/tensorboard.png) 
 	 
+## How to build my own docker image ?
+
+Get the files of the GitHub repository [tensorflow-python3-jupyter](https://github.com/dash00/tensorflow-python3-jupyter) by downloading the ZIP file or by cloning the repository:
+
+```
+git clone https://github.com/dash00/tensorflow-python3-jupyter.git
+```
+
+Open a terminal and set the current working directory to the newly created folder with the project files. 
+
+```
+cd tensorflow-python3-jupyter
+docker build .
+```
+
+
+
+
