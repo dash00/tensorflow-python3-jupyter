@@ -9,7 +9,21 @@ This project helps one to easily benefit from a fully packaged machine learning 
 The three main reasons why you may need this package are: 
 1. Installing a machine learning environment can generally be tricky for beginners while doing it with this project is **very easy**
 2. When you install the included libraries on a system, it can impact the general installation of the system, here **everything is packaged in a docker container** and nothing interfere with in your system. For instance, the container embed a Python installation and even if you already have Python installed on your system, only the embedded version will be used. 
-3. As you will see below, the installation process is **quick** and holds in a **single line of code** 
+3. As you will see below, the installation process is **quick** and holds in **a few lines of code** 
+
+## What does it contain ? 
+
+* [Jupyter Notebook](https://jupyter.org/)
+* [TensorFlow](https://www.tensorflow.org/)
+* [scikit-learn](http://scikit-learn.org/stable/)
+* [pandas](http://pandas.pydata.org/)
+* [matplotlib](https://matplotlib.org/)
+* [numpy](http://www.numpy.org/)
+* [scipy](https://www.scipy.org/)
+* [Pillow](https://pillow.readthedocs.io/en/4.1.x/)
+* [Python 2 and 3](https://www.python.org/)
+
+Note: the jupyter notebooks are only based on Python 3 kernels but Python 2 is available anywhere else.
 
 ## How to install it ?
 
