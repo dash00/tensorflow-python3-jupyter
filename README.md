@@ -1,17 +1,17 @@
 # tensorflow-python3-jupyter
 
-## What is it ?
+## What is it ?
 
 This project helps one to easily benefit from a fully packaged machine learning and deep learning environment.  This has been especially made for teaching purposes but it can simply be used to begin in Machine Learning: 
 
-## Why you may need this ?
+## Why you may need this ?
 
 The three main reasons why you may need this package are: 
 1. Installing a machine learning environment can generally be tricky for beginners while doing it with this project is **very easy**
 2. When you install the included libraries on a system, it can impact the general installation of the system, here **everything is packaged in a docker container** and nothing interfere with in your system. For instance, the container embed a Python installation and even if you already have Python installed on your system, only the embedded version will be used. 
 3. As you will see below, the installation process is **quick** and holds in a **single line of code** 
 
-## How to install it ?
+## How to install it ?
 
 ### On Windows (or Mac, but I am not able to test on Mac)
 
@@ -33,7 +33,7 @@ The three main reasons why you may need this package are:
 	$ docker pull dash00/tensorflow-python3-jupyter
 	```
 
-### On Linux
+### On Linux
 
 1. Open a terminal
 
@@ -49,7 +49,7 @@ The three main reasons why you may need this package are:
 	$ docker pull dash00/tensorflow-python3-jupyter
 	```
 
-## How to use it ?
+## How to use it ?
 
 Once Docker has been installed and the package has been downloaded, one can simply use the following commands from a terminal (use Docker Quickstart Terminal on Windows). 
 
